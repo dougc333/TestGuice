@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'idea'
 
-group = 'com.example'
+group = 'com.simplewebservice'
 version = '1.0-SNAPSHOT'
 
 description = """TestGuice"""
@@ -14,7 +14,8 @@ tasks.withType(JavaCompile) {
 }
 
 
-mainClassName = "linkedbindings.MainLinkedBindings"
+//mainClassName = "linkedbindings.MainLinkedBindings"
+mainClassName = "com.simplewebservice.MyMain"
 
 repositories {
      mavenCentral()
