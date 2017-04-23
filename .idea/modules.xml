@@ -18,11 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings.iml" group="linkedbindings" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_main.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_main.iml" group="linkedbindings" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_test.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_test.iml" group="linkedbindings" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice.iml" group="simplewebservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_main.iml" group="simplewebservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_test.iml" group="simplewebservice" />
-      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1.iml" group="test1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1_main.iml" group="test1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1_test.iml" group="test1" />

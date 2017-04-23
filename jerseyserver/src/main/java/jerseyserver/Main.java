@@ -19,6 +19,7 @@ public class Main {
     @Inject
     public Main(HttpServerWrapperFactory httpServerFactory){
         this.httpServerFactory = httpServerFactory;
+        System.out.println("Inject Main");
         //this.jerseyServerConfig = jerseyServerConfig;
     }
 

@@ -1,0 +1,5 @@
+
+
+interface FooInterface{
+    String getFooName();
+}

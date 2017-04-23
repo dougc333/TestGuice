@@ -18,8 +18,7 @@ public final class ControllerJobResource {
 
     @Inject
     ControllerJobResource() {
-
-        System.out.println("default controllerjobresource");
+        System.out.println("Inject ControllerJobResource");
     }
 
     @GET
@@ -44,7 +43,7 @@ public final class ControllerJobResource {
     @GET
     @Path("test")
     @Produces(MediaType.TEXT_PLAIN)
-    public Response test() {
+    public String test() {
         return "Test Test";
     }
 }

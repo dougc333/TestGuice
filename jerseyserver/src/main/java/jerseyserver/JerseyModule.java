@@ -18,6 +18,8 @@ public class JerseyModule extends AbstractModule{
         binder().requireExactBindingAnnotations();
 
         bind(Main.class);
+        bind(ControllerJobResource.class);
+
         install(new ConfigModuleBuilder().addConfiguration(new SystemConfiguration()).build());
         ConfigModule.bindConfigBean(binder(), JerseyServerConfig.class);
         install(new IpcJsonModule());
