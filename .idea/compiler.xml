@@ -12,10 +12,10 @@
       <module name="linkedbindings_test" target="1.8" />
       <module name="simplewebservice_main" target="1.8" />
       <module name="simplewebservice_test" target="1.8" />
-      <module name="Singleton_main" target="1.5" />
-      <module name="Singleton_test" target="1.5" />
-      <module name="test1_main" target="1.7" />
-      <module name="test1_test" target="1.7" />
+      <module name="Singleton_main" target="1.8" />
+      <module name="Singleton_test" target="1.8" />
+      <module name="test1_main" target="1.8" />
+      <module name="test1_test" target="1.8" />
       <module name="TestGuice_main" target="1.8" />
       <module name="TestGuice_test" target="1.8" />
     </bytecodeTargetLevel>

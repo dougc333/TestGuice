@@ -1,4 +1,4 @@
-package com.simplewebservice;
+package simplewebservice;
 
 import java.io.IOException;
 

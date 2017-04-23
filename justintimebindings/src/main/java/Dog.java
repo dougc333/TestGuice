@@ -1,6 +1,7 @@
+import com.google.inject.ImplementedBy;
 
-
-public class Dog{
-
+@ImplementedBy(Collie.class)
+public interface Dog{
+    public void bark();
 
 }

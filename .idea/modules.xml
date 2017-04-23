@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Singleton/Singleton_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Singleton/Singleton_main.iml" group="Singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Singleton/Singleton_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Singleton/Singleton_test.iml" group="Singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGuice.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGuice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGuice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGuice_main.iml" group="TestGuice" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGuice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGuice_test.iml" group="TestGuice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules.iml" group="bindvsmodules" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_main.iml" group="bindvsmodules" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_test.iml" group="bindvsmodules" />

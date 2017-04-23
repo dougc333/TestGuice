@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.palominolabs.http:jetty-http-server-wrapper:1.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palominolabs.http/jetty-http-server-wrapper/1.2.1/66e8fc1f64e5b449aeaf87c69dd8376b5da9212b/jetty-http-server-wrapper-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palominolabs.http/jetty-http-server-wrapper/1.2.1/83e12599d68597e368460864204ea7a656adacb7/jetty-http-server-wrapper-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

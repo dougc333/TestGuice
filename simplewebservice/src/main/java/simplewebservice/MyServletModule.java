@@ -1,4 +1,4 @@
-package com.simplewebservice;
+package simplewebservice;
 
 import com.google.inject.servlet.ServletModule;
 
