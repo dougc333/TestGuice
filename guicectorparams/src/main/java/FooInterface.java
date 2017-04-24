@@ -1,5 +1,0 @@
-
-
-interface FooInterface{
-    String getFooName();
-}
