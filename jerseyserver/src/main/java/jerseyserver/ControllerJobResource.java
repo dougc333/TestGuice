@@ -15,9 +15,10 @@ import java.util.UUID;
 @Singleton
 @Produces(MediaType.APPLICATION_JSON)
 public final class ControllerJobResource {
-
+    //guide doesnt care not public. jersey cares. fuck....
+    //add public
     @Inject
-    ControllerJobResource() {
+    public ControllerJobResource() {
         System.out.println("Inject ControllerJobResource");
     }
 
@@ -41,7 +42,7 @@ public final class ControllerJobResource {
 
 
     @GET
-    @Path("test")
+    @Path("/test")
     @Produces(MediaType.TEXT_PLAIN)
     public String test() {
         return "Test Test";

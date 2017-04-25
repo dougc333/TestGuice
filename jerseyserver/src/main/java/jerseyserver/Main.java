@@ -31,7 +31,7 @@ public class Main {
 
     public void go() throws Exception{
         HttpServerWrapperConfig config = new HttpServerWrapperConfig().withHttpServerConnectorConfig(
-                new HttpServerConnectorConfig("localhost", 8080,false));
+                new HttpServerConnectorConfig("localhost", 7002,false));
 
         HttpServerWrapper httpServer = httpServerFactory.getHttpServerWrapper(config);
         httpServer.start();

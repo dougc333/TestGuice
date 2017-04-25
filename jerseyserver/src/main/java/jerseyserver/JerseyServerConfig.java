@@ -19,7 +19,7 @@ public interface JerseyServerConfig {
     String getHttpServerIp();
 
     @Config("benchpress.controller.http-server.port")
-    @Default("7000")
+    @Default("7001")
     int getHttpServerPort();
 
 

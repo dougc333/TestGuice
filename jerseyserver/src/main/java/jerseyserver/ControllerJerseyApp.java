@@ -8,6 +8,7 @@ public class ControllerJerseyApp extends JerseyResourceConfigBase {
     ControllerJerseyApp(@Ipc ObjectMapperContextResolver objectMapperContextResolver) {
         super(objectMapperContextResolver);
         System.out.println("ControllerJerseyApp Inject ctor");
+        //HK2.
         register(ControllerJobResource.class);
     }
 }
