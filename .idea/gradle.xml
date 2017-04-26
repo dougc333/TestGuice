@@ -13,10 +13,15 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Singleton" />
             <option value="$PROJECT_DIR$/Test1" />
+            <option value="$PROJECT_DIR$/TestJerseyServer" />
+            <option value="$PROJECT_DIR$/badguicestringparam" />
+            <option value="$PROJECT_DIR$/bindingannotation" />
             <option value="$PROJECT_DIR$/bindvsmodules" />
             <option value="$PROJECT_DIR$/jerseyserver" />
             <option value="$PROJECT_DIR$/justintimebindings" />
             <option value="$PROJECT_DIR$/linkedbindings" />
+            <option value="$PROJECT_DIR$/listeners" />
+            <option value="$PROJECT_DIR$/provider" />
             <option value="$PROJECT_DIR$/simplewebservice" />
           </set>
         </option>

@@ -5,7 +5,22 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/Singleton/Singleton.iml" group="Singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Singleton/Singleton_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Singleton/Singleton_main.iml" group="Singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Singleton/Singleton_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Singleton/Singleton_test.iml" group="Singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1.iml" group="Test1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1_main.iml" group="Test1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1_test.iml" group="Test1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGuice.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGuice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer.iml" filepath="$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer.iml" group="TestJerseyServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_main.iml" group="TestJerseyServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_test.iml" group="TestJerseyServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/[simplewebservice.iml" filepath="$PROJECT_DIR$/.idea/modules/[simplewebservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/[simplewebservice/[simplewebservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/[simplewebservice/[simplewebservice_main.iml" group="[simplewebservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/[simplewebservice/[simplewebservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/[simplewebservice/[simplewebservice_test.iml" group="[simplewebservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam.iml" filepath="$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam.iml" group="badguicestringparam" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam_main.iml" filepath="$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam_main.iml" group="badguicestringparam" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam_test.iml" filepath="$PROJECT_DIR$/.idea/modules/badguicestringparam/badguicestringparam_test.iml" group="badguicestringparam" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation.iml" filepath="$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation.iml" group="bindingannotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation_main.iml" group="bindingannotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bindingannotation/bindingannotation_test.iml" group="bindingannotation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules.iml" group="bindvsmodules" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_main.iml" group="bindvsmodules" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bindvsmodules/bindvsmodules_test.iml" group="bindvsmodules" />
@@ -18,12 +33,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings.iml" group="linkedbindings" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_main.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_main.iml" group="linkedbindings" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_test.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedbindings/linkedbindings_test.iml" group="linkedbindings" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listeners/listeners.iml" filepath="$PROJECT_DIR$/.idea/modules/listeners/listeners.iml" group="listeners" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listeners/listeners_main.iml" filepath="$PROJECT_DIR$/.idea/modules/listeners/listeners_main.iml" group="listeners" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listeners/listeners_test.iml" filepath="$PROJECT_DIR$/.idea/modules/listeners/listeners_test.iml" group="listeners" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provider/provider.iml" filepath="$PROJECT_DIR$/.idea/modules/provider/provider.iml" group="provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provider/provider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/provider/provider_main.iml" group="provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provider/provider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/provider/provider_test.iml" group="provider" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice.iml" group="simplewebservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_main.iml" group="simplewebservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebservice/simplewebservice_test.iml" group="simplewebservice" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1.iml" group="test1" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1_main.iml" group="test1" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/test1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/test1_test.iml" group="test1" />
     </modules>
   </component>
 </project>

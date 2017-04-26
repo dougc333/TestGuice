@@ -1,0 +1,14 @@
+
+include(
+    ":jerseyserver",
+    ":bindvsmodules", 
+    ":justintimebindings",
+    ":linkedbindings",
+    ":simplewebservice",
+    ":Test1",
+    ":Tes"
+)
+
+
+
+

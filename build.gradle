@@ -34,7 +34,3 @@ subprojects{
 
 }
 
-project(':Singleton') {
-    mainClassName="Test"
-}
-

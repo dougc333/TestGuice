@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="[simplewebservice_main" target="1.8" />
+      <module name="[simplewebservice_test" target="1.8" />
+      <module name="badguicestringparam_main" target="1.8" />
+      <module name="badguicestringparam_test" target="1.8" />
+      <module name="bindingannotation_main" target="1.8" />
+      <module name="bindingannotation_test" target="1.8" />
       <module name="bindvsmodules_main" target="1.8" />
       <module name="bindvsmodules_test" target="1.8" />
       <module name="jerseyserver_main" target="1.8" />
@@ -10,14 +16,22 @@
       <module name="justintimebindings_test" target="1.8" />
       <module name="linkedbindings_main" target="1.8" />
       <module name="linkedbindings_test" target="1.8" />
+      <module name="listeners_main" target="1.8" />
+      <module name="listeners_test" target="1.8" />
+      <module name="provider_main" target="1.8" />
+      <module name="provider_test" target="1.8" />
       <module name="simplewebservice_main" target="1.8" />
       <module name="simplewebservice_test" target="1.8" />
       <module name="Singleton_main" target="1.8" />
       <module name="Singleton_test" target="1.8" />
       <module name="test1_main" target="1.8" />
+      <module name="Test1_main" target="1.8" />
+      <module name="Test1_test" target="1.8" />
       <module name="test1_test" target="1.8" />
       <module name="TestGuice_main" target="1.8" />
       <module name="TestGuice_test" target="1.8" />
+      <module name="TestJerseyServer_main" target="1.8" />
+      <module name="TestJerseyServer_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,10 +1,13 @@
 
-include(
-    ":jerseyserver",
-    ":bindvsmodules", ":justintimebindings",
-    ":linkedbindings",":simplewebservice",":test1"
-)
-
-rootProject.name = 'TestGuice'
-include 'Singleton'
-
+include 'Singleton',
+        'Test1',
+        'TestJerseyServer',
+        'badguicestringparam',
+        'bindingannotation',
+        'bindvsmodules',
+        'jerseyserver',
+        'justintimebindings',
+        'linkedbindings',
+        'listeners',
+        'provider',
+        'simplewebservice'
