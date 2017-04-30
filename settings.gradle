@@ -11,3 +11,5 @@ include 'Singleton',
         'listeners',
         'provider',
         'simplewebservice'
+include 'SimpleJerseyServer'
+

@@ -20,6 +20,8 @@
       <module name="listeners_test" target="1.8" />
       <module name="provider_main" target="1.8" />
       <module name="provider_test" target="1.8" />
+      <module name="SimpleJerseyServer_main" target="1.8" />
+      <module name="SimpleJerseyServer_test" target="1.8" />
       <module name="simplewebservice_main" target="1.8" />
       <module name="simplewebservice_test" target="1.8" />
       <module name="Singleton_main" target="1.8" />
