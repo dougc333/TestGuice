@@ -31,9 +31,15 @@ dependencies {
     compile "org.glassfish.jersey.containers:jersey-container-servlet:2.25.1"
     compile "org.glassfish.jersey.media:jersey-media-json-jackson:2.25.1"
 
+    compile "com.squarespace.jersey2-guice:0-jersey2-guice-spi:1.0.6"
+    compile "com.squarespace.jersey2-guice:jersey2-guice-impl:1.0.6"
+
     compile "com.fasterxml.jackson.core:jackson-databind:2.8.7"
+
     compile "org.skife.config:config-magic:0.14"
     compile "joda-time:joda-time:2.0"
+
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.7"
     runtime "ch.qos.logback:logback-classic:1.2.2"
 
     testCompile 'junit:junit:4.12'

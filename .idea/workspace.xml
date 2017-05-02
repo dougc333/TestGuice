@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b97b2ed-31aa-4a1a-8329-64008a88498c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_7.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/GuiceServiceLocatorGenerator.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jetty-http-server-wrapper" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestGuiceServer" afterPath="$PROJECT_DIR$/TestGuiceServer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/fileContent/annotation-processors.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/jvmClassSignatures.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/jerseyserver/.gradle/3.4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/classes/main/jerseyserver/Main.class" afterPath="$PROJECT_DIR$/jerseyserver/build/classes/main/jerseyserver/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/distributions/jerseyserver.tar" afterPath="$PROJECT_DIR$/jerseyserver/build/distributions/jerseyserver.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/distributions/jerseyserver.zip" afterPath="$PROJECT_DIR$/jerseyserver/build/distributions/jerseyserver.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/libs/jerseyserver.jar" afterPath="$PROJECT_DIR$/jerseyserver/build/libs/jerseyserver.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build.gradle" afterPath="$PROJECT_DIR$/jerseyserver/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/scripts/jerseyserver" afterPath="$PROJECT_DIR$/jerseyserver/build/scripts/jerseyserver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/build/scripts/jerseyserver.bat" afterPath="$PROJECT_DIR$/jerseyserver/build/scripts/jerseyserver.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java" afterPath="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ipc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Ipc.java">
+      <file leaf-file-name="JerseyModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,14 +112,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JerseyModule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyModule.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerseyserver/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,8 +125,8 @@
       <file leaf-file-name="JerseyServerConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -132,22 +142,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IpcJsonModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/IpcJsonModule.java">
+      <file leaf-file-name="GuiceServiceLocatorGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/GuiceServiceLocatorGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,9 +171,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,8 +179,8 @@
       <file leaf-file-name="JerseySupportModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseySupportModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -2561,7 +2573,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="38809142743000" />
+        <entry key="$PROJECT_DIR$" value="38809189681000" />
         <entry key="$USER_HOME$/benchpress" value="2979460905000" />
       </map>
     </option>
@@ -2833,7 +2845,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/provider/singleton/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/jerseyserver/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jerseyserver/JerseyModule.java" />
         <option value="$PROJECT_DIR$/justintimebindings/build.gradle" />
@@ -2851,7 +2862,6 @@
         <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyResourceConfigBase.java" />
         <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/IpcJsonModule.java" />
         <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseySupportModule.java" />
-        <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyModule.java" />
         <option value="$PROJECT_DIR$/provider/README.md" />
         <option value="$PROJECT_DIR$/guicectorparams/src/main/java/FooFactory.java" />
         <option value="$PROJECT_DIR$/guicectorparams/README.md" />
@@ -2865,7 +2875,6 @@
         <option value="$PROJECT_DIR$/justintimebindings/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/ControllerJerseyApp.java" />
         <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyServerConfig.java" />
-        <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/TestJerseyServer/src/test/java/AppTest.java" />
@@ -2883,7 +2892,10 @@
         <option value="$PROJECT_DIR$/SimpleJerseyServer/src/main/java/WorkerControlFactory.java" />
         <option value="$PROJECT_DIR$/SimpleJerseyServer/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/SimpleJerseyServer/build.gradle" />
+        <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyModule.java" />
         <option value="$PROJECT_DIR$/jerseyserver/build.gradle" />
+        <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/GuiceServiceLocatorGenerator.java" />
+        <option value="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java" />
       </list>
     </option>
   </component>
@@ -2894,10 +2906,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="63" />
+    <option name="x" value="6" />
+    <option name="y" value="23" />
     <option name="width" value="1406" />
-    <option name="height" value="829" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2925,20 +2937,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestGuice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2983,6 +2981,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestGuice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestGuice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerseyserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestGuice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestGuice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerseyserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerseyserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -3003,9 +3053,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver" />
-      <recent name="$PROJECT_DIR$/jerseyserver/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jerseyserver" />
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -3013,9 +3063,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="jerseyserver" />
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver" />
+      <recent name="$PROJECT_DIR$/jerseyserver/src/test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
@@ -3548,15 +3598,15 @@
       <workItem from="1493579923015" duration="4703000" />
       <workItem from="1493665413923" duration="1808000" />
       <workItem from="1493716888863" duration="2630000" />
-      <workItem from="1493741932101" duration="334000" />
+      <workItem from="1493741932101" duration="4017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67383000" />
+    <option name="totallyTimeSpent" value="71066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="63" width="1406" height="829" extended-state="0" />
+    <frame x="6" y="23" width="1406" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3579,7 +3629,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4236842" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40398294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40398294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3648,13 +3698,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palominolabs.http/jetty-http-server-wrapper/1.2.1/83e12599d68597e368460864204ea7a656adacb7/jetty-http-server-wrapper-1.2.1-sources.jar!/com/palominolabs/http/server/HttpServerConnectorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palominolabs.http/jetty-http-server-wrapper/1.2.1/83e12599d68597e368460864204ea7a656adacb7/jetty-http-server-wrapper-1.2.1-sources.jar!/com/palominolabs/http/server/HttpServerWrapperConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -3800,24 +3843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerseyserver/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyResourceConfigBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3825,9 +3851,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3855,30 +3879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseySupportModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/ControllerJerseyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -3887,10 +3887,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyResourceConfigBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseyModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="300">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/JerseySupportModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/GuiceServiceLocatorGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jerseyserver/src/main/java/jerseyserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

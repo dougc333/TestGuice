@@ -3,6 +3,9 @@ package jerseyserver;
 import com.google.inject.Guice;
 import com.google.inject.Inject;
 import com.google.inject.Injector;
+
+import com.squarespace.jersey2.guice.JerseyGuiceUtils;
+
 import com.palominolabs.http.server.HttpServerConnectorConfig;
 import com.palominolabs.http.server.HttpServerWrapper;
 import com.palominolabs.http.server.HttpServerWrapperConfig;
@@ -25,7 +28,12 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Injector injector = Guice.createInjector(new JerseyModule());
+        //remove below. Go back on spec and remove public ctor on ControllerJobResource if
+        //below is here. 
+        JerseyGuiceUtils.install(new GuiceServiceLocatorGenerator(injector));
+
         injector.getInstance(Main.class).go();
+
 
     }
 
