@@ -29,7 +29,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Injector injector = Guice.createInjector(new JerseyModule());
         //remove below. Go back on spec and remove public ctor on ControllerJobResource if
-        //below is here. 
+        //below is here.
         JerseyGuiceUtils.install(new GuiceServiceLocatorGenerator(injector));
 
         injector.getInstance(Main.class).go();
