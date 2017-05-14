@@ -10,6 +10,8 @@
       <module name="bindingannotation_test" target="1.8" />
       <module name="bindvsmodules_main" target="1.8" />
       <module name="bindvsmodules_test" target="1.8" />
+      <module name="guiceinjectorparams_main" target="1.8" />
+      <module name="guiceinjectorparams_test" target="1.8" />
       <module name="jerseyserver_main" target="1.8" />
       <module name="jerseyserver_test" target="1.8" />
       <module name="justintimebindings_main" target="1.8" />
@@ -18,6 +20,8 @@
       <module name="linkedbindings_test" target="1.8" />
       <module name="listeners_main" target="1.8" />
       <module name="listeners_test" target="1.8" />
+      <module name="multibinder_main" target="1.8" />
+      <module name="multibinder_test" target="1.8" />
       <module name="provider_main" target="1.8" />
       <module name="provider_test" target="1.8" />
       <module name="SimpleJerseyServer_main" target="1.8" />
@@ -30,10 +34,14 @@
       <module name="Test1_main" target="1.8" />
       <module name="Test1_test" target="1.8" />
       <module name="test1_test" target="1.8" />
+      <module name="Test2_main" target="1.8" />
+      <module name="Test2_test" target="1.8" />
       <module name="TestGuice_main" target="1.8" />
       <module name="TestGuice_test" target="1.8" />
       <module name="TestJerseyServer_main" target="1.8" />
       <module name="TestJerseyServer_test" target="1.8" />
+      <module name="TestMonteCarlo_main" target="1.8" />
+      <module name="TestMonteCarlo_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

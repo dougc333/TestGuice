@@ -1,15 +1,20 @@
 
 include 'Singleton',
         'Test1',
+        'Test2',
         'TestJerseyServer',
         'badguicestringparam',
         'bindingannotation',
         'bindvsmodules',
+        'guiceinjectorparams',
         'jerseyserver',
         'justintimebindings',
         'linkedbindings',
         'listeners',
+        'multibinder',
         'provider',
-        'simplewebservice'
-include 'SimpleJerseyServer'
+        'simplewebservice',
+        'SimpleJerseyServer',
+        'simplewebservice',
+        'TestMonteCarlo'
 

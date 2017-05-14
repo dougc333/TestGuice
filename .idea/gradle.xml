@@ -14,14 +14,18 @@
             <option value="$PROJECT_DIR$/SimpleJerseyServer" />
             <option value="$PROJECT_DIR$/Singleton" />
             <option value="$PROJECT_DIR$/Test1" />
+            <option value="$PROJECT_DIR$/Test2" />
             <option value="$PROJECT_DIR$/TestJerseyServer" />
+            <option value="$PROJECT_DIR$/TestMonteCarlo" />
             <option value="$PROJECT_DIR$/badguicestringparam" />
             <option value="$PROJECT_DIR$/bindingannotation" />
             <option value="$PROJECT_DIR$/bindvsmodules" />
+            <option value="$PROJECT_DIR$/guiceinjectorparams" />
             <option value="$PROJECT_DIR$/jerseyserver" />
             <option value="$PROJECT_DIR$/justintimebindings" />
             <option value="$PROJECT_DIR$/linkedbindings" />
             <option value="$PROJECT_DIR$/listeners" />
+            <option value="$PROJECT_DIR$/multibinder" />
             <option value="$PROJECT_DIR$/provider" />
             <option value="$PROJECT_DIR$/simplewebservice" />
           </set>
