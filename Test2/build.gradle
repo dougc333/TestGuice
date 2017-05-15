@@ -34,7 +34,7 @@ test {
     	testLogging.exceptionFormat = 'full' 
         // Or we use events method:
         // events 'standard_out', 'standard_error'
- 
+        events 'started', 'passed'
         // Or set property events:
         // events = ['standard_out', 'standard_error']
  

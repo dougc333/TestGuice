@@ -1,3 +1,7 @@
+To run a single test or method under the test class
+./gradlew test --tests *AppTest.testPrint
+
+After changing build.gradle to show print, run clean
 ./gradlew clean test
 
 Run gradle clean after modifying build.gradle

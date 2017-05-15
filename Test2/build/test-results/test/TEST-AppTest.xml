@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-14T23:57:58" hostname="localhost" time="0.001">
+<testsuite name="AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-15T00:29:17" hostname="localhost" time="0.001">
   <properties/>
-  <testcase name="testAppHasAGreeting" classname="AppTest" time="0.001"/>
-  <system-out><![CDATA[asdfasdf
+  <testcase name="testPrint" classname="AppTest" time="0.001"/>
+  <system-out><![CDATA[testPrint
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
