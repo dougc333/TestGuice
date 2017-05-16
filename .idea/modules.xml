@@ -11,9 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1.iml" group="Test1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1_main.iml" group="Test1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test1/Test1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test1/Test1_test.iml" group="Test1" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2/Test2.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2/Test2.iml" group="Test2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2/Test2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2/Test2_main.iml" group="Test2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2/Test2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2/Test2_test.iml" group="Test2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2_main.iml" group="Test2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test2_test.iml" group="Test2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGuice.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGuice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer.iml" filepath="$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer.iml" group="TestJerseyServer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestJerseyServer/TestJerseyServer_main.iml" group="TestJerseyServer" />
