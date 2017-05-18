@@ -1,0 +1,16 @@
+dependencies {
+  compile project(':logging')
+  compile project(':job')
+  compile project(':job-registry')
+  compile project(':id-registry')
+  compile project(':zookeeper')
+  compile project(':jersey-support')
+
+  testCompile "junit:junit:${depVersions.junit}"
+
+  testCompile "org.apache.curator:curator-test:${depVersions.curator}"
+
+  testRuntime "org.slf4j:jcl-over-slf4j:${depVersions.slf4j}"
+  testRuntime "org.slf4j:slf4j-simple:${depVersions.slf4j}"
+
+}
