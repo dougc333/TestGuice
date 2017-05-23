@@ -33,6 +33,7 @@ public final class WorkerMainModule extends AbstractModule {
         install(new IpcJsonModule());
         install(new TaskProgressClientModule());
         install(new JobRegistryModule());
+        //install(new DefaultValueGeneratorFactoryFactoriesModule());
         install(new QueueProviderModule());
 
         bind(WorkerJerseyApp.class);

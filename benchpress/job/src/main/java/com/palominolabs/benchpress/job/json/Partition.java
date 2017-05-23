@@ -49,4 +49,8 @@ public final class Partition {
     public String getFinishedUrl() {
         return finishedUrl;
     }
+
+    public String toString(){
+        return "UUID:"+this.jobId+" partitionId:"+this.partitionId+" task:"+this.task+" prograssURL:"+this.progressUrl+ " finishedURL:"+this.finishedUrl;
+    }
 }

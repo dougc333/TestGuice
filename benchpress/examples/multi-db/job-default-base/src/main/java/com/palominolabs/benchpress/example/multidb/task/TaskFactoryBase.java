@@ -17,12 +17,16 @@ public abstract class TaskFactoryBase {
 
     protected TaskFactoryBase(TaskOperation taskOperation, ValueGeneratorFactory valueGeneratorFactory, int batchSize,
         KeyGeneratorFactory keyGeneratorFactory, int numQuanta, int numThreads) {
+        System.out.println("+++++++TaskFactoryBase before ctor ops");
+        System.out.println("+++++++TaskFactoryBase params taskOperation:"+taskOperation.toString());
+
         this.taskOperation = taskOperation;
         this.valueGeneratorFactory = valueGeneratorFactory;
         this.batchSize = batchSize;
         this.keyGeneratorFactory = keyGeneratorFactory;
         this.numQuanta = numQuanta;
         this.numThreads = numThreads;
+        System.out.println("+++++++TaskFactryBase complete");
     }
 
 }

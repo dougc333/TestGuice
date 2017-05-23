@@ -1,12 +1,16 @@
 package com.palominolabs.benchpress.controller.http;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import com.palominolabs.benchpress.controller.JobFarmer;
 import com.palominolabs.benchpress.job.JobStatus;
 import com.palominolabs.benchpress.job.json.Job;
+import com.palominolabs.benchpress.job.json.Task;
 import com.palominolabs.benchpress.logging.MdcKeys;
 import com.palominolabs.benchpress.task.reporting.TaskPartitionFinishedReport;
+
+import java.util.Iterator;
 import java.util.Set;
 import java.util.UUID;
 import javax.ws.rs.Consumes;
@@ -37,11 +41,16 @@ public final class ControllerJobResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response submit(Job job) {
-        //the mongodb.json has to be parsed and turned into job.
-        //where is this?
 
         System.out.println("+++++++++Controller RESPONSE");
         System.out.println("+++++++++jobID:"+job.getJobId().toString());
+        Task task = job.getTask();
+        JsonNode jsonNode = task.getConfigNode();
+        System.out.println("jsonNode:"+jsonNode.toString());
+        Iterator<String> it = jsonNode.fieldNames();
+        while (it.hasNext()){
+            System.out.println("fieldNames:"+it.next());
+        }
 
         MDC.put(MdcKeys.JOB_ID, job.getJobId().toString());
 
@@ -53,13 +62,20 @@ public final class ControllerJobResource {
         }
         return response;
     }
+    @GET
+    @Path("/foo")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String foo(){
+        return "foo foo foo";
+    }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
     public Response list() {
+        System.out.println("++++++++++++++++ControllerJobResource /controller/job");
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("<html>\n<body>\n");
-
+        stringBuilder.append("<p>I am here</p>");
         stringBuilder.append("<ul>\n");
         Set<UUID> jobIds = jobFarmer.getJobIds();
         for (UUID jobId : jobIds) {

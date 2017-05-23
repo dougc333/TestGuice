@@ -23,6 +23,7 @@ public abstract class ComponentFactoryBase implements ComponentFactory {
     }
 
     protected ValueGeneratorFactory getValueGeneratorFactory(TaskConfigBase config) {
+        //bug here....valueGeneratorFactoryFactoryRegistry is in MemoryRegistry, test what is in the registry
         return valueGeneratorFactoryFactoryRegistry.get(config.getValueGen().getValueGenType())
             .getFactory(config.getValueGen().getConfig());
     }

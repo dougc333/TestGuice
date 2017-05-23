@@ -8,6 +8,8 @@ dependencies {
   compile project(':examples:multi-db:cassandra')
   compile project(':examples:multi-db:hbase')
   compile project(':examples:multi-db:hbase-async')
+  compile project(':examples:multi-db:key-gen')
+  compile project(':examples:multi-db:value-gen')
   compile project(':examples:multi-db:mongodb')
 
   compile "com.palominolabs.http:jetty-http-server-wrapper:${depVersions.jettyWrapper}"

@@ -28,17 +28,22 @@ final class MongoDbTaskFactory extends TaskFactoryBase implements TaskFactory {
     MongoDbTaskFactory(TaskOperation taskOperation, ValueGeneratorFactory valueGeneratorFactory, int batchSize,
         KeyGeneratorFactory keyGeneratorFactory, int numQuanta, int numThreads, String hostname,
         int port, String dbName, String collectionName) {
+
         super(taskOperation, valueGeneratorFactory, batchSize, keyGeneratorFactory, numQuanta, numThreads);
+        System.out.println("+++++++MongoDBTaskFactory ctor after super()");
+
         this.hostname = hostname;
         this.port = port;
         this.dbName = dbName;
         this.collectionName = collectionName;
+        System.out.println("+++++++MongoDBTaskFactory end ctor");
     }
 
     @Nonnull
     @Override
     public Collection<Runnable> getRunnables(@Nonnull UUID jobId, int partitionId, @Nonnull UUID workerId,
         @Nonnull TaskOutputQueueProvider taskOutputQueueProvider, @Nullable TaskOutputProcessorFactory taskOutputProcessorFactory) throws IOException {
+        System.out.println("++++MongoDbTaskFactory getRunnables() creating mongo instance");
         mongo = new Mongo(this.hostname, this.port);
         int quantaPerThread = numQuanta / numThreads;
 

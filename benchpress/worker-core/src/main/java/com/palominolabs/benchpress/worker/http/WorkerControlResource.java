@@ -38,37 +38,66 @@ public final class WorkerControlResource {
         this.workerAdvertiser = workerAdvertiser;
     }
 
+    //point browser to 0.0.0.0:7001/worker/control/foo
+    @GET
+    @Path("/foo")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String foo(){
+        return "Class WorkerControlResources function foo() path worker/control/foo";
+    }
 
-    //@POST
-    //@Path("acquireLock/")
-    //public Response foo(){
-    //    System.out.println("dshgfdhgfdhgfdhgfdh");
-    //    return null;
-    //}
+    //curl -vX POST http://0.0.0.0:7001/worker/control/fooPost
+    @POST
+    @Path("/fooPost")
+    @Produces(MediaType.TEXT_HTML)
+    public Response fooPost(){
+        System.out.println("this is fooPost....");
+        Response response = Response.status(Response.Status.ACCEPTED).build();
+        return response;
+
+    }
+
+    //curl -vX POST http://0.0.0.0:7001/worker/control/fooJson
+    @POST
+    @Path("/fooJson")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response fooJson(){
+        String json = "{id:100}";
+
+        return Response.ok(json, MediaType.APPLICATION_JSON).build();
+    }
+
+
+
+
     /**
      * @param controllerId the controller acquiring the lock
      * @return 204 on success, 412 on failure
      */
     @POST
-    @Path("acquireLock/{controllerId}")
+    @Path("/acquireLock/{controllerId}")
     public Response acquireLock(@PathParam("controllerId") UUID controllerId) {
         //path in WorkerControl is worker/control/acquireLock wo controllerId
-        System.out.println("WorkerControlResource acquireLock() controllerId:"+controllerId);
+        System.out.println("Worker-core_main WorkerControlResource acquireLock/ControllerID");
+        System.out.println("Worker-core_main WorkerControlResource acquireLock() controllerId:"+controllerId);
 
         synchronized (this) {
             Response response = expectLockStatus(false);
             if (response != null) {
+                System.out.println("+++++WorkerControlResource function acquireLock expectLockStatus failed");
                 return response;
             }
 
             logger.info("Lock granted to controllerId <" + controllerId + ">");
             lockingControllerId = controllerId;
             locked = true;
+            System.out.println("++++WorkerControlResource function acquireLock have lock");
         }
 
         workerAdvertiser.deAdvertiseAvailability();
 
         return Response.noContent().build();
+
     }
 
     /**

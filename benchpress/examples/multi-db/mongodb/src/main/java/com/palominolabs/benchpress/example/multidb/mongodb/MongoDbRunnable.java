@@ -21,6 +21,7 @@ final class MongoDbRunnable extends AbstractTaskRunnable implements Runnable {
         super(taskOperation, keyGenerator, workerId, partitionId, numQuanta, batchSize, jobId, valueGenerator);
         this.db = db;
         collection = db.getCollection(collectionName);
+        System.out.println("+++++++MongoDBRunnable ctor not injected");
     }
 
     @Override

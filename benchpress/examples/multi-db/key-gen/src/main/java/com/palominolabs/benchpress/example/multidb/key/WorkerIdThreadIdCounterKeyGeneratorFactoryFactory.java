@@ -3,6 +3,7 @@ package com.palominolabs.benchpress.example.multidb.key;
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.ThreadSafe;
 
+import com.google.inject.Inject;
 import org.apache.commons.configuration.Configuration;
 
 import java.nio.CharBuffer;
@@ -12,6 +13,10 @@ import java.util.UUID;
 final class WorkerIdThreadIdCounterKeyGeneratorFactoryFactory implements KeyGeneratorFactoryFactory {
 
     private static final Factory FACTORY = new Factory();
+    @Inject
+    private WorkerIdThreadIdCounterKeyGeneratorFactoryFactory() {
+
+    }
 
     @Override
     public KeyGeneratorFactory getKeyGeneratorFactory(Configuration c) {

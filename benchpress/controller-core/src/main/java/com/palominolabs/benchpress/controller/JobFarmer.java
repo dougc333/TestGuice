@@ -88,6 +88,9 @@ public final class JobFarmer {
         Collection<ServiceInstance<WorkerMetadata>> registeredWorkers;
         try {
             registeredWorkers = serviceProvider.getAllInstances();
+            if (serviceProvider.getInstance()==null){
+                System.out.println("service provider no instance!!!!! ");
+            }
             System.out.println("++++JobFarmer submitJob() numRegisteredWorkers:"+registeredWorkers.size());
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -113,15 +116,18 @@ public final class JobFarmer {
             logger.warn("No unlocked workers");
             return Response.status(Response.Status.PRECONDITION_FAILED).entity("No unlocked workers found").build();
         }
-
+        System.out.println("Controller JobFarrmer num locked workers:"+lockedWorkers.size());
         // TODO unlock locked workers if job partitioning, etc. fails to avoid losing workers permanently
 
         List<Partition> partitions;
         try {
+            System.out.println("JobFarmer getting TaskPartitioner have workers now");
+            System.out.println("job tasktype:"+job.getTask().getTaskType());
+
             TaskPartitioner taskPartitioner =
                 taskPluginRegistry.get(job.getTask().getTaskType()).getControllerComponentFactory(
                     objectReader, job.getTask().getConfigNode()).getTaskPartitioner();
-
+            System.out.println("Controller JobFarmet getting partitions......");
             partitions = taskPartitioner
                 .partition(job.getJobId(), lockedWorkers.size(), getProgressUrl(job.getJobId()),
                     getFinishedUrl(job.getJobId()), objectReader, job.getTask().getConfigNode(), objectWriter);
@@ -129,6 +135,8 @@ public final class JobFarmer {
             logger.warn("Failed to partition job", e);
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
         }
+
+        System.out.println("JobFarmer numpartitions:"+partitions.size());
 
         if (partitions.isEmpty()) {
             logger.warn("No partitions created");
@@ -141,6 +149,7 @@ public final class JobFarmer {
         // Submit the partition to the worker
         while (titerator.hasNext()) {
             TandemIterator.Pair pair = titerator.next();
+            System.out.println("submitting partiton to worker jobId:"+job.getJobId()+" , pair:"+pair.partition.toString());
             workerControlFactory.getWorkerControl(pair.workerMetadata).submitPartition(job.getJobId(), pair.partition);
             jobStatus.addPartitionStatus(new PartitionStatus(pair.partition, pair.workerMetadata));
         }

@@ -95,6 +95,7 @@ public final class WorkerControl {
         String submitUri = getUrlPrefix() + "/worker/job/" + jobId + "/partition";
 
         AsyncHttpClient.BoundRequestBuilder req;
+        System.out.println("+++++++++WorkerControl submitPartition");
         try {
             req = httpClient.preparePut(submitUri).setBody(objectWriter.writeValueAsString(partition))
                 .addHeader("Content-Type", MediaType.APPLICATION_JSON);
@@ -131,7 +132,9 @@ public final class WorkerControl {
      */
     private boolean tellWorker(AsyncHttpClient.BoundRequestBuilder uriRequest, Response.Status expectedStatus) {
         try {
+            System.out.println("tellWorker, COntroller.WorkerControl sending request to worker!!!!!");
             com.ning.http.client.Response response = uriRequest.execute().get();
+            //we never get here...we get precondition failed on getStatusTest
             System.out.println("WorkerControl statusText:"+response.getStatusText());
             System.out.println("WorkerControl statusCode:"+response.getStatusCode());
 

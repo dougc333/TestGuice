@@ -8,6 +8,8 @@ import java.util.UUID;
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.NotThreadSafe;
 import javax.annotation.concurrent.ThreadSafe;
+
+import com.google.inject.Inject;
 import org.apache.commons.configuration.Configuration;
 
 /**
@@ -28,6 +30,9 @@ final class MD5PrefixedCounterKeyGeneratorFactoryFactory implements KeyGenerator
     @Override
     public KeyGeneratorFactory getKeyGeneratorFactory(Configuration c) {
         return new GeneratorFactory(c.getBoolean("usePartition", true));
+    }
+    @Inject
+    private MD5PrefixedCounterKeyGeneratorFactoryFactory() {
     }
 
     @Nonnull

@@ -66,7 +66,7 @@ public final class PartitionRunner {
         this.objectReader = objectReader;
         this.taskOutputQueueProvider = taskOutputQueueProvider;
         this.taskPluginRegistry = taskPluginRegistry;
-
+        System.out.println("+++++PartitionRunner injected ctor");
         // TODO lifecycle would be nice for this
         completionService.submit(new ThreadExceptionWatcherRunnable(completionService), null);
         // TODO also nice to hook into lifecycle...
@@ -74,6 +74,7 @@ public final class PartitionRunner {
     }
 
     public boolean runPartition(Partition partition) {
+        System.out.println("+++++++PartitionRunner runPartition");
         TaskFactory tf;
         ComponentFactory componentFactory;
         try {
@@ -84,6 +85,10 @@ public final class PartitionRunner {
             return false;
         }
         tf = componentFactory.getTaskFactory();
+        System.out.println("Partition Runner before calling jobRegistryStoreJob");
+        System.out.println("PartitionRunner getJobId:"+partition.getJobId());
+        System.out.println("PartitionRunner getFinishedURL:"+partition.getFinishedUrl());
+        System.out.println("PartitionRunner.getProbressURL:"+partition.getProgressUrl());
 
         jobRegistry.storeJob(partition.getJobId(), partition.getProgressUrl(), partition.getFinishedUrl());
 
@@ -168,6 +173,7 @@ public final class PartitionRunner {
         @Override
         public void run() {
             MDC.put(JOB_ID, jobId.toString());
+            System.out.println("++++++++PartitionRunner run()");
             try {
                 Instant start = Instant.now();
 

@@ -5,6 +5,8 @@ import java.util.Random;
 import java.util.UUID;
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.ThreadSafe;
+
+import com.google.inject.Inject;
 import org.apache.commons.configuration.Configuration;
 
 /**
@@ -24,6 +26,9 @@ final class SaltedCounterKeyGeneratorFactoryFactory implements KeyGeneratorFacto
     @Override
     public KeyGeneratorFactory getKeyGeneratorFactory(Configuration c) {
         return new GeneratorFactory(c.getBoolean("usePartition", true));
+    }
+    @Inject
+    private SaltedCounterKeyGeneratorFactoryFactory() {
     }
 
     @Nonnull

@@ -33,6 +33,9 @@ public final class WorkerAdvertiser {
     WorkerAdvertiser(ZookeeperConfig zookeeperConfig, ServiceDiscovery<WorkerMetadata> serviceDiscovery) {
         this.zookeeperConfig = zookeeperConfig;
         this.serviceDiscovery = serviceDiscovery;
+        if (serviceDiscovery==null){
+            System.out.println("NOT GOOD WorkerAdvertiser serviceDiscovery null");
+        }
         System.out.println("worker advertiser injected ctor++++++++++++++++++++++++++++++");
     }
 
@@ -50,6 +53,9 @@ public final class WorkerAdvertiser {
         }
         this.listenAddress = address;
         this.listenPort = port;
+        System.out.println("Worker Advertiser address:"+address);
+        System.out.println("Worker Advertiser port:"+port);
+
     }
 
     public synchronized void advertiseAvailability() {

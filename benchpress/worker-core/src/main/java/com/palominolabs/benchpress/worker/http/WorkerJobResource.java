@@ -28,6 +28,7 @@ public final class WorkerJobResource {
 
     @Inject
     WorkerJobResource(PartitionRunner partitionRunner) {
+        System.out.println("WorkerJobResource Injected Ctor");
         this.partitionRunner = partitionRunner;
     }
 
@@ -35,6 +36,9 @@ public final class WorkerJobResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Path("{jobId}/partition")
     public Response submit(@PathParam("jobId") UUID jobId, Partition partition) {
+        System.out.println("++++++++ WorkerJobResource /worker/job/jobID/partition");
+        System.out.println("++++++++ WorkerJobResource jobID:"+jobId);
+        System.out.println("++++++++ WorkerJobResource partition:"+partition.toString());
         logger.info("Processing job submission <" + jobId + "> partition <" + partition.getPartitionId() + ">");
 
         if (!partitionRunner.runPartition(partition)) {

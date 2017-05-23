@@ -2,7 +2,6 @@ package com.palominolabs.benchpress.example.multidb.value;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.multibindings.Multibinder;
-import com.palominolabs.benchpress.example.multidb.value.ValueGeneratorFactoryFactory;
 
 public final class DefaultValueGeneratorFactoryFactoriesModule extends AbstractModule{
     @Override

@@ -4,9 +4,12 @@ import com.google.inject.*;
 import com.palominolabs.benchpress.example.multidb.cassandra.CassandraModule;
 import com.palominolabs.benchpress.example.multidb.hbase.HbaseModule;
 import com.palominolabs.benchpress.example.multidb.hbaseasync.HbaseAsyncModule;
+import com.palominolabs.benchpress.example.multidb.key.DefaultKeyGeneratorFactoriesModule;
 import com.palominolabs.benchpress.example.multidb.key.KeyGeneratorFactoryFactoryRegistryModule;
-import com.palominolabs.benchpress.example.multidb.mongodb.MongoDbModule;
+//
 import com.palominolabs.benchpress.example.multidb.value.ValueGeneratorFactoryFactoryRegistryModule;
+import com.palominolabs.benchpress.example.multidb.mongodb.MongoDbModule;
+import com.palominolabs.benchpress.example.multidb.value.DefaultValueGeneratorFactoryFactoriesModule;
 import com.palominolabs.benchpress.ipc.IpcHttpClientModule;
 import com.palominolabs.benchpress.ipc.IpcJsonModule;
 import com.palominolabs.benchpress.jersey.GuiceServiceLocatorGenerator;
@@ -92,6 +95,8 @@ public final class WorkerMain {
             install(new HbaseModule());
             install(new HbaseAsyncModule());
             install(new MongoDbModule());
+            install(new DefaultKeyGeneratorFactoriesModule());
+            install(new DefaultValueGeneratorFactoryFactoriesModule());
             install(new KeyGeneratorFactoryFactoryRegistryModule());
             install(new ValueGeneratorFactoryFactoryRegistryModule());
 

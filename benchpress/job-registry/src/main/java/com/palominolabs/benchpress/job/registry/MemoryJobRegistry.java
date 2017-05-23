@@ -16,10 +16,12 @@ final class MemoryJobRegistry implements JobRegistry {
 
     @Inject
     MemoryJobRegistry() {
+        System.out.println("-----MemoryJobRegistry injeted ctor");
     }
 
     @Override
     public synchronized void storeJob(UUID jobId, String progressUrl, String finishedUrl) {
+        System.out.println("--------MemoryJobRegistry storeJob");
         data.put(jobId, new JobData(progressUrl, finishedUrl));
     }
 

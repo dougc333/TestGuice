@@ -3,10 +3,15 @@ package com.palominolabs.benchpress.example.multidb.value;
 import javax.annotation.Nonnull;
 import javax.annotation.concurrent.NotThreadSafe;
 import javax.annotation.concurrent.ThreadSafe;
+
+import com.google.inject.Inject;
 import org.apache.commons.configuration.Configuration;
 
 @ThreadSafe
 final class ZeroByteArrayValueGeneratorFactoryFactory implements ValueGeneratorFactoryFactory {
+    @Inject
+    private ZeroByteArrayValueGeneratorFactoryFactory() {
+    }
 
     @Nonnull
     @Override
